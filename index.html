@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ecommerz | Classic Glasses for Men</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#000;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+.logo{
+font-size:26px;
+font-weight:600;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+height:60vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1511499767150-a48a237f0083");
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.products{
+padding:60px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+padding:20px;
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+.price{
+color:#27ae60;
+font-size:18px;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:black;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#444;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Ecommerz</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+<div>
+<h1>Classic Glasses For Men</h1>
+<p>Style That Defines You</p>
+</div>
+</section>
+
+<section class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1577803645773-f96470509666">
+<h3>Classic Black Frame</h3>
+<p class="price">$29</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083">
+<h3>Vintage Metal Glasses</h3>
+<p class="price">$35</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+<h3>Modern Transparent Frame</h3>
+<p class="price">$32</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583394838336-acd977736f90">
+<h3>Retro Round Glasses</h3>
+<p class="price">$30</p>
+<button>Add to Cart</button>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Ecommerz | Classic Glasses Store</p>
+</footer>
+
+</body>
+</html>
